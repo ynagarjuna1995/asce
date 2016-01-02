@@ -60,7 +60,7 @@ var Gallery = mongoose.model('GallerySchema',GallerySchema);
 var RecentPosts = mongoose.model('RecentPostsSchema',RecentPostsSchema);
 var Users = mongoose.model('UserSchema',UserSchema);
 
-mongoose.connect( "mongodb://localhost/asce" , function (err) {
+mongoose.connect( "mongo ds043398.mongolab.com:43398/asce -u arpan -p qwerty12345" , function (err) {
         if(err) console.log(err);
     });
 
